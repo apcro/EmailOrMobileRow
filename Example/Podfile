@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EmailOrMobileRow_Tests' do
+  pod 'EmailOrMobileRow', :path => '../'
+  
+  
+end
