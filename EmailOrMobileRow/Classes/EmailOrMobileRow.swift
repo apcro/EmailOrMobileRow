@@ -13,10 +13,18 @@
 import Foundation
 import Eureka
 
+public final class EmailOrMobileRow: Row<EmailOrMobileRowCell>, RowType {
+    required public init(tag: String?) {
+        super.init(tag: tag)
+        cellProvider = CellProvider<EmailOrMobileRowCell>(nibName: "EmailOrMobileRowCell")
+        
+    }
+}
+
 public class EmailOrMobileRowCell: Cell<String>, CellType {
     
-    @IBOutlet weak var rowImage: UIImageView!
-    @IBOutlet weak var rowLabel: UITextField!
+    @IBOutlet public weak var rowImage: UIImageView!
+    @IBOutlet public weak var rowLabel: UITextField!
     
     private var typeImages: [String] = ["envelope", "phone"]
     private var imageCounter: Int = 0
@@ -124,10 +132,3 @@ public class EmailOrMobileRowCell: Cell<String>, CellType {
     
 }
 
-public final class EmailOrMobileRow: Row<EmailOrMobileRowCell>, RowType {
-    required public init(tag: String?) {
-        super.init(tag: tag)
-        cellProvider = CellProvider<EmailOrMobileRowCell>(nibName: "EmailOrMobileRowCell")
-        
-    }
-}
