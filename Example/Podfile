@@ -4,3 +4,8 @@ target 'EmailOrMobileRow_Tests' do
   
   
 end
+
+target 'EmailOrMobileRow' do
+  pod 'Eureka'
+  
+end

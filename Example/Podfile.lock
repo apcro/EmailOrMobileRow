@@ -1,0 +1,16 @@
+PODS:
+  - EmailOrMobileRow (0.1.0)
+
+DEPENDENCIES:
+  - EmailOrMobileRow (from `../`)
+
+EXTERNAL SOURCES:
+  EmailOrMobileRow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EmailOrMobileRow: 90a2bcecbc39ff0841b5b1aac584b3c9ecc1d6e2
+
+PODFILE CHECKSUM: c85457f04aeced79ef877267c41bc7a02c915b3a
+
+COCOAPODS: 1.9.3
