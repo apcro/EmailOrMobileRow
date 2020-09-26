@@ -26,7 +26,7 @@ A Eureka form row that accepts and validates typed entry as either an Email addr
   s.homepage         = 'https://github.com/apcro/EmailOrMobileRow'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'u' => 'cro@alienpants.com' }
+  s.author           = { 'Tom Gordon' => 'cro@alienpants.com' }
   s.source           = { :git => 'https://github.com/apcro/EmailOrMobileRow.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
