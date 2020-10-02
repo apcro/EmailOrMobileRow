@@ -5,10 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/EmailOrMobileRow.svg?style=flat)](https://cocoapods.org/pods/EmailOrMobileRow)
 [![Platform](https://img.shields.io/cocoapods/p/EmailOrMobileRow.svg?style=flat)](https://cocoapods.org/pods/EmailOrMobileRow)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
 [Eureka](https://github.com/xmartlabs/Eureka)
